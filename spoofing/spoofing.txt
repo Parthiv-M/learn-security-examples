@@ -1,1 +1,7 @@
-Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+Exposing session IDs which can be intercepted by attackers, thereby giving them unauthorised access, is the
+vulnerability in this server. 
+
+The secure version of the server prevents this by encrypting session data and using HTTPS, thus making it difficult
+for the attackers to extract useful data from the intercepted network traffic.
+
+Spoofing violates confidentiality (C).
