@@ -1,0 +1,6 @@
+Tampering implies unauthorised changes to data made by an attacker. The changes may get
+reflected either in the database or in other parts of the application. 
+
+The secure version contains appropriate sanitation of the input entered by the user.
+
+Tampering violates integrity (I) as it compromises data integrity.

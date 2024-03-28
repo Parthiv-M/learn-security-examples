@@ -1,3 +1,11 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+The insecure server can potentially accept database queries as the input, which can lead to a flushing out of data 
+from the database, thereby revealing secure information about the application's users. This can lead to noSQL injection attacks.
+
+Information disclosure violates integrity (I).
+
+Input validation, stripping user inputs of any unwanted trailing or leading characters, as well as using parametrised queries
+are good methods to fight this vulnerability.
