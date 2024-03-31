@@ -1,2 +1,9 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+This vulnerability leverages the system's inability to trace malicious users. If a malicious actor decides to tamper the system
+and perform unauthorised actions and the system cannot trace it, the system is vulnerable to such attacks.
+
+The secure version implements appropriate logging at all possible points in the system so that such attacks are not possible.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Implement auditing policies and sufficient logging. Also make sure that logs cannot be tampered easily.

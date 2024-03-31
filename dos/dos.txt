@@ -1,2 +1,11 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+The Denial of Service attack occurs when a server is overwhelmed with more requests than it can handle.
+This causes the server to crash and stop responding to any further requests.
+
+The secure version incroporates try-catch blocks that are fundamental to handling erorrs gracefully and 
+returning a response to the client. This ensures that the server does not crash at unexpected times.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Rate limiting and using CDNs to balance loads are two additional methods by which DDoS attacks can be prevented.
+

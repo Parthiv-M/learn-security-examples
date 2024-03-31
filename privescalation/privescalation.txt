@@ -1,0 +1,7 @@
+Privilege escalation occurs when unauthorised users get higher privileges than they are entitled to receive. This can grant 
+access to resources that are beyond their intended level of authorisation.
+
+The secure version of the server implements session based authorisation. This allows only intended users to get the privileges 
+required by, say, an admin user as it is cross-verified agianst their session information.
+
+Additional measures: role based access control
